@@ -549,4 +549,31 @@ section :target p{
     }
     
     }
+
+       /*Contacto*/
+
+       .form_contacto{
+        padding-right: 800px;
+    
+    }
+
+    .main_contacto {
+        background-size: 25%;
+        background-position: 900px;
+        padding-top: 80px;
+        
+    }
+
+      /*Nosotros*/
+
+      .img_luca {
+        width: 78%;
+       
+    }
+
+    .img_cata{
+        width: 45%;
+        
+    }
+    
 }
