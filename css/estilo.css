@@ -319,10 +319,10 @@ section :target p{
         padding-top: 80px;
         padding-right: 50px;
         padding-left: 50px;
-        background-image: url(../imagenes/circulo.png);
+        background-image: url(../imagenes/34839191_8232287.png);
         background-repeat: no-repeat;
-        background-position: center;
-        background-size:100%;
+        background-position: left;
+        background-size:60%;
         
     }
 
@@ -443,7 +443,7 @@ section :target p{
         padding-top: 180px;
         font-weight: bolder;
         font-style: italic;
-        background-image: url(../imagenes/circulo.png);
+        background-image: url(../imagenes/34839191_8232287.png);
         background-repeat: no-repeat;
         background-size: contain;
     }
@@ -514,10 +514,10 @@ section :target p{
     }
 
     .main_clientes {
-        background-image: url(../imagenes/circulo.png);
+        background-image: url(../imagenes/34839191_8232287.png);
         background-repeat: no-repeat;
-        background-position: center;
-        background-size:70%;
+        background-position: left;
+        background-size:60%;
     }
 
     /*Contacto*/
@@ -535,24 +535,23 @@ section :target p{
         background-position: 600px;
         
     }
+}
 
     @media screen and (min-width:1200px) {
 
-        .main_contacto {
-            background-image: url(../imagenes/34839031_8232295.png);
-            background-repeat: no-repeat;
-            background-size: 30%;
-            background-position: 750px;
-            padding-bottom: 35px;
-            padding-top: 40px;
+    /*Contacto*/
+
+    .main_contacto {
+        background-image: url(../imagenes/34839031_8232295.png);
+        background-repeat: no-repeat;
+        background-size: 30%;
+        background-position: 750px;
+        padding-bottom: 35px;
+        padding-top: 40px;
 
     }
     
-    }
-
-       /*Contacto*/
-
-       .form_contacto{
+    .form_contacto{
         padding-right: 800px;
     
     }
@@ -564,10 +563,10 @@ section :target p{
         
     }
 
-      /*Nosotros*/
+    /*Nosotros*/
 
-      .img_luca {
-        width: 78%;
+    .img_luca {
+     width: 78%;
        
     }
 
@@ -575,5 +574,13 @@ section :target p{
         width: 45%;
         
     }
-    
+
+    /*Clientes*/
+
+    .main_clientes {
+        background-image: url(../imagenes/34839191_8232287.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:50%;
+    }
 }
